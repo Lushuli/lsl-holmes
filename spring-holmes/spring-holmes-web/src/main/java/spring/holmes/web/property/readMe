@@ -1,0 +1,9 @@
+引入外部的.properties资源文件两种方式
+1.第一种如AppConfig1中
+ * @PropertySource代表引入外部的.properties资源文件
+ * @PropertySources嵌套@PropertySource引入多个外部资源文件
+
+ 2.第二种AppConfig2中
+ 使用Environment获取资源
+
+ Environment代表spring的环境，在环境里面只有两种东西： 1，读入的外部资源文件(properties)； 2，profile
